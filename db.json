@@ -1,0 +1,22 @@
+{
+  "music": [
+    {
+      "id": 1,
+      "title": "mariners apartment complex",
+      "singer": "lana del rey",
+      "gender": "indie"
+    },
+    {
+      "id": 2,
+      "title": "dealer",
+      "singer": "lana del rey",
+      "gender": "indie"
+    },
+    {
+      "id": 3,
+      "title": "ultraviolence",
+      "singer": "lana del rey",
+      "gender": "indie"
+    }
+  ]
+}
