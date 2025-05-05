@@ -1,1 +1,21 @@
-<p>music works!</p>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Título</th>
+        <th scope="col">Cantor</th>
+        <th scope="col">Gênero</th>
+      </tr>
+    </thead>
+    <tbody>
+        
+      <tr *ngFor="let s of music">
+        <th scope="row">{{s.id}}</th>
+        <td>{{s.title}}</td>
+        <td>{{s.singer}}</td>
+        <td>{{s.gender}}</td>
+      </tr>
+      </tbody>
+</table>
+      
+      
