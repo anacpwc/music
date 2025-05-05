@@ -31,5 +31,18 @@ export class MusicComponent implements OnInit{
    });
   }
 
+  loadSong(){
+    this.service.getSong().subscribe({
+      next: json => this.music = json
+   });
+  }
+
+  delete(music: Song) {
+    this.service.delete(music).subscribe(
+      {
+        next: () => this.loadSong()
+      }
+    )
+    }
 
 }
